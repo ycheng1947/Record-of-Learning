@@ -1,6 +1,38 @@
 # Record-of-Learning
 
 ## Python Learning
+###基础学习
+- main函数：`if _name_='_main_':`
+- 交互输入：`name = raw_input(please input your name)`
+- 缩进表示代码块，`#`号表示注释，大小写敏感。
+- 数据类型和变量：
+	- 转义：`\`，`r''`表示`''`之间的字符串默认不转义
+	- 多行内容表示：` ```xxx``` `
+	- 布尔值：True，False
+	- and , or ,not 运算
+	- list和Tuple
+		- list：一种可变有序集合，可以随时增加和删除元素，assert(),append(),pop()；
+		- tuple：与list相似，但一旦初始化就不能修改；用`()`定义tuple，只有一个元素的时候必须加`,`号，如`t=(1,)`
+		- tuple不可变，但tuple中有list的时候，指向list不变，list中内容是可变的。
+
+	- 条件判断：
+		- `if x:`，若`x`为非零数，非空字符串，非空list，则为True。
+
+	- 循环：
+		- `for x in y`循环：将`y`中的每个元素带入变量`x`，执行缩进块代码。
+		- `range(100)`：range函数表示0-99的整数序列。
+		- `raw_input()`：返回的是字符串，需要转换成int型。
+
+	- dict & set
+		- dict：
+			- 相当于map,`k-v`键值对，一个key只能对应一个value；
+			- key不存在会报错，可以用`in`判断，key  in dict；或者通过dict.get(key)或dict.get(key,'xxx')，key不存在返回None或者指定值xxx。
+			- 删除一个key ，用pop(key),删除dict中key对应的value。
+		- dict vs list：
+			- dict：查找和插入速度快，不会随着key的增加而增加；list：查找和插入的时间随着key的增加而增加。
+			- dict：需要占用大量的内存，内存浪费多；list：占用空间小，且浪费内存少。
+
+
 
 ## Scala Learing
 
