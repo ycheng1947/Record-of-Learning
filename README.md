@@ -10,6 +10,9 @@
 	- 多行内容表示：` ```xxx``` `
 	- 布尔值：True，False
 	- and , or ,not 运算
+
+- 格式化的输出：
+	- `print "%s" %i`
 - list和Tuple
 	- list：一种可变有序集合，可以随时增加和删除元素，assert(),append(),pop()；
 	- tuple：与list相似，但一旦初始化就不能修改；用`()`定义tuple，只有一个元素的时候必须加`,`号，如`t=(1,)`
