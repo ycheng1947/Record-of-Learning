@@ -3,7 +3,7 @@ def  generate():
 	fp = open("D:\\code\\Record-of-Learning\\pythonCode\\test.txt","w")
 	for i in range(0,1000):
 		a = random.randint(1,10)
-		fp.write(str(a)+"\n")
+		fp.write(str(a)+"\n") 
 
 	fp.close()
 
