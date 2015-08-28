@@ -53,7 +53,8 @@
 ```
 def g(x) : return x!='a'
 print filter(g,'asdfg')
-sdfg```
+sdfg
+```
 
 #### map
 - map(function, sequence) ：对sequence中的item依次执行function(item)，见执行结果组成一个List返回
