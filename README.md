@@ -84,6 +84,7 @@ print g(1)
 2
 
 ```
+- [参考](http://www.cnblogs.com/longdouhzt/archive/2012/05/19/2508844.html)
 
 ## Scala Learing
 
