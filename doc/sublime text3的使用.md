@@ -15,3 +15,8 @@
 
 ## 问题
 - package install 时，报错：`there are no packages available for installation` .
+- `ping sublime.wbond.net`
+- 修改`C:\Windows\system32\drivers\etc\hosts`
+- ```#to solve sublime Text IPv6```
+```50.116.34.243 sublime.wbond.net ```
+```#end```
