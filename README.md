@@ -1,5 +1,8 @@
 # Record-of-Learning
 
+## JavaScript Learning
+
+
 ## Python Learning
 ###基础学习
 - main函数：`if _name_='_main_':`
