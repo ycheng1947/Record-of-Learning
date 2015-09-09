@@ -10,6 +10,7 @@
 - [参考](http://www.runoob.com/js/js-tutorial.html)
 - 文本输出：
 	- `document.write(Date());`
+	- document.write("<p>" + txt.length + "</p>")
 	- 换行：`document.write( "<br>");`
 
 - 函数：
@@ -81,7 +82,33 @@ var y=      new Boolean;
 var cars=   new Array;
 var person= new Object;
 ```
-		-  JavaScript 变量均为对象。当您声明一个变量时，就创建了一个新的对象。
+### JavaScript对象
+-  JavaScript 变量均为对象。当您声明一个变量时，就创建了一个新的对象。
+-  对象也是一个变量，可以包含多个值（多个变量）。JavaScript对象是变量的容器，也说JavaScript对象是键值对的容器。
+-  对象方法：
+	- 对象的方法定义了一个函数，并作为对象的属性存储。
+	- 对象方法通过添加()调用，如person.fullName()。
+	- 如果要访问person对象的fullName属性，它将作为一个定义函数的字符串返回。
+- 访问对象的方法：
+	```
+    methodName : function() { code lines }
+```
+	```
+    objectName.methodName()
+```
+### JS函数
+- 函数是由事件驱动或者当它被调用时执行的可重复使用的代码块。
+- 局部变量：
+	- 在函数内部申明的变量（使用var）
+- 全局变量：
+	- 在函数外申明的变量，网页上所有的脚本和函数都能访问的。
+- 向未申明的变量分配值，该变量自动作为全局变量申明，即使它在函数内执行。
+- 在HTML中，全局变量是window对象；所有数据变量都属于window对象。
+
+### JavaScript 事件
+- [TODO](http://www.runoob.com/js/js-events.html)
+
+
 
 
 
