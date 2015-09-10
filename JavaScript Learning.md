@@ -82,6 +82,7 @@ var y=      new Boolean;
 var cars=   new Array;
 var person= new Object;
 ```
+
 ### JavaScript对象
 -  JavaScript 变量均为对象。当您声明一个变量时，就创建了一个新的对象。
 -  对象也是一个变量，可以包含多个值（多个变量）。JavaScript对象是变量的容器，也说JavaScript对象是键值对的容器。
@@ -107,6 +108,31 @@ var person= new Object;
 
 ### JavaScript 事件
 - [TODO](http://www.runoob.com/js/js-events.html)
+
+### JavaScript 比较和逻辑运算符
+-  ``==``:等于
+-  ``===`` : 绝对等于（值和类型均相等）
+- ``!=``
+- ``!==`` ： 绝对不等于（值或者类型不相等）
+-  提交运算符：
+	```
+    variablename=(condition)?value1:value2 
+```
+### JavaScript 类型转换
+- [参考](http://www.runoob.com/js/js-type-conversion.html)
+
+### 正则表达式
+- [参考](http://www.runoob.com/js/js-regexp.html)
+
+### JavaScript 调试工具
+- [参考](http://www.runoob.com/js/js-debugging.html)
+
+### TODO
+- [JavaScript 表单验证](http://www.runoob.com/js/js-form-validation.html)
+
+
+## JavaScript 库
+### jQuery 教程
 
 
 
