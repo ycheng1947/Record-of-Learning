@@ -1,0 +1,43 @@
+1. spark 安装问题：
+org.apache.spark.SparkException: A master URL must be set in your configuration
+点击edit configuration，在左侧点击该项目。在右侧VM options中输入“-Dspark.master=local”，指示本程序本地单线程运行，再次运行即可。
+
+2. Ubuntu 下创建桌面快捷方式
+
+创建一个空的文本，命名为idea.desktop
+输入：
+[Desktop Entry]
+Name=IdeaIU
+Comment=Idea IU 14.04
+Exec=/media/ycheng/00095FB100069D36/SoftWare/idea-IC-139.1603.1/bin/idea.sh
+Icon=/media/ycheng/00095FB100069D36/SoftWare/idea-IC-139.1603.1/bin/idea.png
+Terminal=false
+Type=Application
+Categories=Developer; 
+
+保存运行，说是不授权的应用。右击属性，修改为可执行的即可。
+
+3. Ubuntu 安装sublime text2  
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+sudo apt-get install sublime-text
+
+http://www.cnblogs.com/kingwell/archive/2012/11/22/2782991.html
+下载文件解压后放进安装目录Sublime Text 2\Packages 下面即可。
+
+仍然不行，釆取以下措施
+cd ~/.config/sublime-text-2/Packages
+git clone https://github.com/xgenvn/InputHelper.git
+
+參考：
+http://my.oschina.net/tsl0922/blog/113495
+
+启动命令：
+/media/ycheng/00095FB100069D36/SoftWare
+ ./sublimeStart.sh 
+ 
+# 重启st2
+# ctrl+shift+z
+# 在弹出的对话框输入中文，安回车键即可
+
+4. ipython notebook 可视化
