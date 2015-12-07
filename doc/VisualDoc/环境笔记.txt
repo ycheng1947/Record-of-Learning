@@ -45,3 +45,9 @@ http://my.oschina.net/tsl0922/blog/113495
 5. spark-notebook
 /media/ycheng/00095FB100069D36/SoftWare/spark-notebook-0.6.1-scala-2.10.4-spark-1.5.0-hadoop-2.2.0-with-hive-with-parquet
 $ ./bin/spark-notebook
+
+
+6. git 
+ssh面密碼登陸：
+ssh-keygen 一直enter
+cat .ssh/id_rsa.pub >> .ssh/authorized_keys 即可
