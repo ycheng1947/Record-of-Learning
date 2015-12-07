@@ -41,3 +41,7 @@ http://my.oschina.net/tsl0922/blog/113495
 # 在弹出的对话框输入中文，安回车键即可
 
 4. ipython notebook 可视化
+
+5. spark-notebook
+/media/ycheng/00095FB100069D36/SoftWare/spark-notebook-0.6.1-scala-2.10.4-spark-1.5.0-hadoop-2.2.0-with-hive-with-parquet
+$ ./bin/spark-notebook
